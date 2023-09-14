@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tokyo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./style.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="cursor-inner" class="cursor-inner"></div>
+    <div id="cursor-outter" class="cursor"></div>
+
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__wrapper">
+          <a class="header__logo" href="#">
+            <img src="./assets/logo.png" class="header__logo-img" alt="logo" />
+          </a>
+
+          <div id="burger" class="header__burger burger">
+            <span class="burger__line burger__line-top"></span>
+            <span class="burger__line burger__line-center"></span>
+            <span class="burger__line burger__line-bottom"></span>
+          </div>
+
+          <nav class="header__nav nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link active" href="#">Home</a>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Service</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Portfolio</a>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="#">News</a></li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header__search search">
+            <form class="search__form" action="">
+              <input class="search__input" placeholder="Search" type="text" />
+              <button class="search__button" type="submit">
+                <img
+                  class="search__img"
+                  src="./assets/search.svg"
+                  alt="search"
+                />
+              </button>
+            </form>
+          </div>
+
+          <div class="header__copyright copyright">
+            <p class="copyright__text">© 2022 Tokyo</p>
+            <p class="copyright__text">
+              Created by <a class="copyright__link" href="#">Marketify</a>
+            </p>
+          </div>
+        </div>
+
+        <nav id="mobile_nav" class="header__mobile mobile__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link active" href="#">Home</a>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Service</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Portfolio</a>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="#">News</a></li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main">
+        <div class="main__wrapper">
+          <div class="main__img-container">
+            <img class="main__img" src="./assets/1.jpg" alt="Adriano Smith" />
+            <div class="main__shadow"></div>
+          </div>
+          <div class="main__content">
+            <h1 class="main__title">Adriano Smith</h1>
+            <p class="main__text">
+              I am a WordPress Developer at heart and create features that are
+              best suited for the job at hand.
+            </p>
+            <ul class="main__list social">
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <img
+                    class="social__icon"
+                    src="./assets/facebook.svg"
+                    alt="Facebook"
+                  />
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <img
+                    class="social__icon"
+                    src="./assets/twitter.svg"
+                    alt="Twitter"
+                  />
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <img
+                    class="social__icon"
+                    src="./assets/instagram.svg"
+                    alt="Instagram"
+                  />
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <img
+                    class="social__icon"
+                    src="./assets/browser.svg"
+                    alt="Browser"
+                  />
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <img
+                    class="social__icon"
+                    src="./assets/tiktok.svg"
+                    alt="TikTok"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
